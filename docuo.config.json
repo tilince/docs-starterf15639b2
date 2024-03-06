@@ -1,9 +1,17 @@
 {
-  "title": "My site",
+  "title": "GNS UI",
   "favicon": "image/favicon.ico",
+  "instances": [
+    {
+      "id": "default",
+      "label": "docs",
+      "path": "docs",
+      "routeBasePath": ""
+    }
+  ],
   "themeConfig": {
     "navbar": {
-      "title": "My project",
+      "title": "GNS UI",
       "logo": "image/logo.png",
       "items": [
         {
@@ -11,18 +19,83 @@
           "sidebarIds": ["mySidebar"],
           "label": "Documentation",
           "position": "left"
+        },
+        {
+          "type": "docsVersionDropdown"
+        },
+        {
+          "type": "docsInstanceDropdown"
         }
       ]
     },
     "footer": {
       "logo": "image/logo.png",
-      "caption": "My project",
+      "caption": "Effortlessly write then publish technical, product documentation in a customer-facing portal, no code.",
       "links": [
         {
           "title": "Product",
           "items": [
             {
-              "label": "documentation",
+              "label": "Documentation",
+              "to": "/"
+            },
+            {
+              "label": "Documentation",
+              "to": "/"
+            },
+            {
+              "label": "Documentation",
+              "to": "/"
+            }
+          ]
+        },
+        {
+          "title": "Product",
+          "items": [
+            {
+              "label": "Documentation",
+              "to": "/"
+            },
+            {
+              "label": "Documentation",
+              "to": "/"
+            },
+            {
+              "label": "Documentation",
+              "to": "/"
+            }
+          ]
+        },
+        {
+          "title": "Product",
+          "items": [
+            {
+              "label": "Documentation",
+              "to": "/"
+            },
+            {
+              "label": "Documentation",
+              "to": "/"
+            },
+            {
+              "label": "Documentation",
+              "to": "/"
+            }
+          ]
+        },
+        {
+          "title": "Product",
+          "items": [
+            {
+              "label": "Documentation",
+              "to": "/"
+            },
+            {
+              "label": "Documentation",
+              "to": "/"
+            },
+            {
+              "label": "Documentation",
               "to": "/"
             }
           ]
@@ -39,13 +112,21 @@
         },
         {
           "logo": "Discord",
-          "href": "https://discord.gg/pgJFhUwzAU"
+          "href": "https://discord.gg/W8p93wcR"
         },
         {
-          "logo": "Github",
+          "logo": "GitHub",
           "href": "https://github.com/spreadingai"
         }
-      ]
+      ],
+      "copyright": "Copyright © 2022 ZEGOCLOUD. All Rights Reserved."
+    }
+  },
+  "search": {
+    "algolia": {
+      "appId": "24083JW88L",
+      "apiKey": "5ec85b3104c941999985d4f528b6376b",
+      "indexName": "sunlyproject1-hdh34-spreading"
     }
   }
 }
